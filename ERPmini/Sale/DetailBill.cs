@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -13,10 +14,14 @@ namespace ERPmini.Sale
 {
     public partial class DetailBill : Form
     {
-        public DetailBill(string id)
+        private string Saler = "";
+        private string maHoaDon = "";
+        public DetailBill(string id, string maHoaDon, string Saler)
         {
             InitializeComponent();
             loadDetailBill(id);
+            this.maHoaDon = maHoaDon;
+            this.Saler = Saler;
         }
 
         private void loadDetailBill(string id)
@@ -42,6 +47,12 @@ namespace ERPmini.Sale
                 }
             } catch (Exception ex) { MessageBox.Show(ex.ToString()); }
            
+        }
+       
+        private void btnInHD_Click(object sender, EventArgs e)
+        {
+            InHoaDon inhoadon = new InHoaDon(maHoaDon, Saler);
+            inhoadon.ShowDialog();
         }
     }
 }

@@ -33,8 +33,21 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AxShockwaveFlashObjects, Version=1.0.0.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.2.Core, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +57,8 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationClient" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DAO\DataProvider.cs" />
@@ -61,6 +76,18 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sale\CRCTHoaDon.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRCTHoaDon.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Sale\CRHoaDonDate.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRHoaDonDate.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Sale\DetailBill.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,11 +100,67 @@
     <Compile Include="Sale\HomeSale.Designer.cs">
       <DependentUpon>HomeSale.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sale\InHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sale\InHoaDon.Designer.cs">
+      <DependentUpon>InHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sale\ucHoaDonDate.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sale\ucHoaDonDate.Designer.cs">
+      <DependentUpon>ucHoaDonDate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage\CRKhoSP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRKhoSP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Storage\CRNhapSP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRNhapSP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Storage\CRXuatSP.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CRXuatSP.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Storage\DataSet.cs">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Storage\DataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Storage\HomeStorage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Storage\HomeStorage.Designer.cs">
       <DependentUpon>HomeStorage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage\ucKhoSP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Storage\ucKhoSP.Designer.cs">
+      <DependentUpon>ucKhoSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage\ucNhapSP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Storage\ucNhapSP.Designer.cs">
+      <DependentUpon>ucNhapSP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Storage\ucXuatSP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Storage\ucXuatSP.Designer.cs">
+      <DependentUpon>ucXuatSP.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -91,14 +174,49 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Sale\CRCTHoaDon.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRCTHoaDon.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale\CRHoaDonDate.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRHoaDonDate.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Sale\DetailBill.resx">
       <DependentUpon>DetailBill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sale\HomeSale.resx">
       <DependentUpon>HomeSale.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Sale\InHoaDon.resx">
+      <DependentUpon>InHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sale\ucHoaDonDate.resx">
+      <DependentUpon>ucHoaDonDate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage\CRKhoSP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRKhoSP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage\CRNhapSP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRNhapSP.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage\CRXuatSP.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CRXuatSP.cs</LastGenOutput>
+    </EmbeddedResource>
     <EmbeddedResource Include="Storage\HomeStorage.resx">
       <DependentUpon>HomeStorage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage\ucKhoSP.resx">
+      <DependentUpon>ucKhoSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage\ucNhapSP.resx">
+      <DependentUpon>ucNhapSP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage\ucXuatSP.resx">
+      <DependentUpon>ucXuatSP.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -109,9 +227,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Storage\DataSet.xsc">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Storage\DataSet.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Storage\DataSet.xss">
+      <DependentUpon>DataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

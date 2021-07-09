@@ -24,6 +24,7 @@ namespace ERPmini.Storage
             txtStorager.Text = name;
             loadInfoStaff(manv);
             cbGt.SelectedIndex = 0;
+    
         }
 
         private void loadInfoStaff(string manv)
@@ -165,6 +166,64 @@ namespace ERPmini.Storage
                 MessageBox.Show("Thành công");
             }
             catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+        }
+
+        private void btnNhap_Click(object sender, EventArgs e)
+        {
+            if (!pnlThongKe.Controls.Contains(ucNhapSP.Instance))
+            {
+                ucNhapSP ucnhapSP = new ucNhapSP(Storager);
+                pnlThongKe.Controls.Add(ucnhapSP);
+                ucnhapSP.Dock = DockStyle.Fill;
+                ucnhapSP.BringToFront();
+            }
+            else
+            {
+                ucNhapSP ucGD = new ucNhapSP(Storager);
+                ucGD.BringToFront();
+            }
+        }
+
+        private void btnXuat_Click(object sender, EventArgs e)
+        {
+            if (!pnlThongKe.Controls.Contains(ucXuatSP.Instance))
+            {
+                ucXuatSP ucnhapSP = new ucXuatSP(Storager);
+                pnlThongKe.Controls.Add(ucnhapSP);
+                ucnhapSP.Dock = DockStyle.Fill;
+                ucnhapSP.BringToFront();
+            }
+            else
+            {
+                ucXuatSP ucGD = new ucXuatSP(Storager);
+                ucGD.BringToFront();
+            }
+        }
+
+        private void btnSPKho_Click(object sender, EventArgs e)
+        {
+            if (!pnlThongKe.Controls.Contains(ucKhoSP.Instance))
+            {
+                ucKhoSP ucnhapSP = new ucKhoSP(Storager);
+                pnlThongKe.Controls.Add(ucnhapSP);
+                ucnhapSP.Dock = DockStyle.Fill;
+                ucnhapSP.BringToFront();
+            }
+            else
+            {
+                ucKhoSP ucGD = new ucKhoSP(Storager);
+                ucGD.BringToFront();
+            }
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel25_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

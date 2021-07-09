@@ -32,6 +32,7 @@
             this.tensanpham = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dongian = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.sl = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnInHD = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetail)).BeginInit();
             this.SuspendLayout();
             // 
@@ -50,12 +51,13 @@
             this.sl});
             this.dgvDetail.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgvDetail.Location = new System.Drawing.Point(0, 0);
+            this.dgvDetail.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.dgvDetail.MultiSelect = false;
             this.dgvDetail.Name = "dgvDetail";
             this.dgvDetail.ReadOnly = true;
             this.dgvDetail.RowTemplate.Height = 24;
             this.dgvDetail.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvDetail.Size = new System.Drawing.Size(964, 740);
+            this.dgvDetail.Size = new System.Drawing.Size(734, 601);
             this.dgvDetail.TabIndex = 0;
             // 
             // tensanpham
@@ -79,12 +81,24 @@
             this.sl.Name = "sl";
             this.sl.ReadOnly = true;
             // 
+            // btnInHD
+            // 
+            this.btnInHD.Location = new System.Drawing.Point(647, 580);
+            this.btnInHD.Name = "btnInHD";
+            this.btnInHD.Size = new System.Drawing.Size(87, 21);
+            this.btnInHD.TabIndex = 1;
+            this.btnInHD.Text = "In hóa đơn";
+            this.btnInHD.UseVisualStyleBackColor = true;
+            this.btnInHD.Click += new System.EventHandler(this.btnInHD_Click);
+            // 
             // DetailBill
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(964, 740);
+            this.ClientSize = new System.Drawing.Size(734, 601);
+            this.Controls.Add(this.btnInHD);
             this.Controls.Add(this.dgvDetail);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "DetailBill";
             this.Text = "DetailBill";
             ((System.ComponentModel.ISupportInitialize)(this.dgvDetail)).EndInit();
@@ -98,5 +112,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn tensanpham;
         private System.Windows.Forms.DataGridViewTextBoxColumn dongian;
         private System.Windows.Forms.DataGridViewTextBoxColumn sl;
+        private System.Windows.Forms.Button btnInHD;
     }
 }

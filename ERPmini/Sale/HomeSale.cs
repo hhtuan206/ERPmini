@@ -13,6 +13,8 @@ namespace ERPmini.Sale
 {
     public partial class HomeSale : Form
     {
+        public static string maHoaDon = "";
+        public static string Saler = "";
         string list = null;
         public HomeSale(string name,String manv)
         {
@@ -22,6 +24,7 @@ namespace ERPmini.Sale
             loadBill();
             loadInfoStaff(manv);
             cbGt.SelectedIndex = 0;
+            Saler = name;
         }
 
 
@@ -124,7 +127,7 @@ namespace ERPmini.Sale
         private void btnDetailBill_Click(object sender, EventArgs e)
         {
            
-            DetailBill detailBill = new DetailBill(list);
+            DetailBill detailBill = new DetailBill(list, maHoaDon, Saler);
             detailBill.ShowDialog();
 
         }
@@ -135,6 +138,7 @@ namespace ERPmini.Sale
             {
                 DataGridViewRow row = dgvBill.Rows[e.RowIndex];
                 list = row.Cells["maxuatSP"].Value.ToString();
+                maHoaDon = row.Cells["mahoadon"].Value.ToString();
                
             }
         }
@@ -191,6 +195,27 @@ namespace ERPmini.Sale
                 MessageBox.Show("Thành công");
             }
             catch (Exception ex) { MessageBox.Show(ex.ToString()); }
+        }
+
+        private void btnHoaDonDate_Click(object sender, EventArgs e)
+        {
+            if (!pnlSale.Controls.Contains(ucHoaDonDate.Instance))
+            {
+                ucHoaDonDate uchoadondate = new ucHoaDonDate(Saler);
+                pnlSale.Controls.Add(uchoadondate);
+                uchoadondate.Dock = DockStyle.Fill;
+                uchoadondate.BringToFront();
+            }
+            else
+            {
+                ucHoaDonDate uchoadondate = new ucHoaDonDate(Saler);
+                uchoadondate.BringToFront();
+            }
+        }
+
+        private void btnChiTietHD_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }
