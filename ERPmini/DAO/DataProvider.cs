@@ -6,7 +6,7 @@ namespace HMS.DAO
 {
     public class DataProvider
     {
-        private string connectionSTR = "Data Source=DESKTOP-HCA16R3\\SQLEXPRESS;Initial Catalog=db_qlsxduoc;Integrated Security=True";
+        private string connectionSTR = "Data Source=.;Initial Catalog=db_qlsxduoc;Integrated Security=True";
 
         private static DataProvider instance; // Ctrl + R + E
 
