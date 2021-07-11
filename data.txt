@@ -1,0 +1,414 @@
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('halo',234,500.0000,'2021-01-10','2025-01-10',null ); 
+
+
+
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid amin',235,5001.0000,'2021-01-10','2025-01-10',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid Folic',236,5002,'2021-01-11','2025-01-11',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid Fusidic',237,5003,'2021-01-12','2025-01-12',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid Nalidixic',238,5004,'2021-01-13','2025-01-13',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid Thioctic',239,5005,'2021-01-14','2025-01-14',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid Tranexamic',240,5006,'2021-01-15','2025-01-15',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid Ursodeoxycholic',241,5007,'2021-01-16','2025-01-16',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acid Ursodeoxycholic',242,5008,'2021-01-17','2025-01-17',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acyclovir',243,5009,'2021-01-18','2025-01-18',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acyclovir',244,5010,'2021-01-19','2025-01-19',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acyclovir',245,5011,'2021-01-20','2025-01-20',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Acyclovir',246,5012,'2021-01-21','2025-01-21',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Adefovir dipivoxil',247,5013,'2021-01-22','2025-01-22',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Adrenalin',248,5014,'2021-01-23','2025-01-23',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Allopurinol',249,5015,'2021-01-24','2025-01-24',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Allopurinoll',250,5016,'2021-01-25','2025-01-25',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Alpha Chymotrypsin',251,5017,'2021-01-26','2025-01-26',null);
+
+
+
+
+
+
+
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Anastrozol',253,5019,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Arginin hydroclorid',254,5020,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Arginin hydroclorid',255,5021,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Arginin hydroclorid',256,5022,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Arginin hydroclorid',257,5023,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Aspirin Acetylsalicylic acid',258,5024,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Atenolol',259,5025,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Atorvastatin',260,5026,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Atorvastatin',261,5027,'2021-01-26','2025-01-26',null);
+INSERT INTO tbl_sanpham(tensanpham,soluong,dongia,ngaysanxuat,hansudung,ghichu) VALUES ('Atropin sulfat',262,5028,'2021-01-26','2025-01-26',null);
+
+
+
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (201,2,101,'WHO_GMP_2',null);
+
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (202,3,102,'WHO_GMP_3',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (203,4,103,'WHO_GMP_2',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (204,5,104,'WHO_GMP_1',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (205,6,105,'WHO_GMP_5',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (206,7,106,'WHO_GMP_4',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (207,8,107,'WHO_GMP_3',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (208,9,108,'WHO_GMP_10',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (209,10,109,'WHO_GMP_14',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (210,11,110,'WHO_GMP_15',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (211,12,111,'WHO_GMP_17',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (212,13,112,'WHO_GMP_2',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (213,14,113,'WHO_GMP_11',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (214,15,114,'WHO_GMP_1',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (215,16,115,'WHO_GMP_2',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (216,17,116,'WHO_GMP_5',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (217,18,117,'WHO_GMP_6',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (218,19,118,'WHO_GMP_9',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (219,20,119,'WHO_GMP_4',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (220,21,120,'WHO_GMP_7',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (221,22,121,'WHO_GMP_16',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (222,23,122,'WHO_GMP_15',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (223,24,123,'WHO_GMP_8',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (224,25,124,'WHO_GMP_13',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (225,26,125,'WHO_GMP_9',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (226,27,126,'WHO_GMP_9',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (227,28,127,'WHO_GMP_9',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (228,29,128,'WHO_GMP_9',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (229,30,129,'WHO_GMP_9',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (230,31,130,'WHO_GMP_2',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (231,32,131,'WHO_GMP_5',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (232,33,132,'WHO_GMP_7',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (233,34,133,'WHO_GMP_8',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (234,35,134,'WHO_GMP_2',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (235,36,135,'WHO_GMP_13',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (236,37,136,'WHO_GMP_13',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (237,38,137,'WHO_GMP_15',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (238,39,138,'WHO_GMP_18',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (239,40,139,'WHO_GMP_11',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (240,41,140,'WHO_GMP_17',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (241,42,141,'WHO_GMP_16',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (242,43,142,'WHO_GMP_12',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (243,44,143,'WHO_GMP_14',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (244,45,144,'WHO_GMP_14',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (245,46,145,'WHO_GMP_14',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (246,47,146,'WHO_GMP_14',null);
+INSERT INTO tbl_chatluong(maCL,maSP,maTL,chatluong,ghichu) VALUES (247,48,147,'WHO_GMP_14',null);
+
+
+
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (33,2,'Hà Huy Tấn','2021-01-23',null);
+
+
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (23,1,'Nguyễn Trường An','2021-01-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (21,2,'Đỗ Long Anh','2021-01-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (15,1,'Ngô Hải Anh','2021-01-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (2,3,'Nguyễn Đức Anh','2021-01-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (4,4,'Nguyễn Ngọc Anh','2021-01-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (6,1,'Nguyễn Thị Vân Anh','2021-01-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (8,1,'Nguyễn Đức Bắc','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (9,5,'Trần Nhật Cương','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (3,6,'Chu Quang Dũng','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (1,5,'Lê Nguyên Dương','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (6,7,'Bùi Trường Giang','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (9,2,'Nguyễn Đức Hà','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (25,1,'Nguyễn Thị Hà','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (25,2,'Ngô Hoàng Hiệp','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (25,3,'Văn Đình Hiếu','2021-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (25,1,'Phạm Huy Hoàn','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (23,2,'Nguyễn Thị Hồng','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (26,6,'Vũ Thị Mai Huê','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (46,2,'Tô Ngọc Ký','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (7,5,'Đỗ Xuân Mạnh','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (1,11,'Lê Đức Minh','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (23,2,'Nguyễn Ngọc Minh','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (7,5,'Lương Việt Nhật','2021-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (23,7,'Đào Thanh Phong','2021-06-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (20,2,'Trịnh Minh Quang','2021-06-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (8,5,'Lê Văn Quý','2021-06-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (9,9,'Nguyễn Xuân Sơn','2021-06-26',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (10,1,'Nguyễn Thị Thắng','2021-06-27',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (16,1,'Vũ Đức Thắng','2021-06-28',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (12,1,'Đoàn Thu Thảo','2021-03-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (14,5,'Trần Văn Thế','2021-03-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (14,3,'Nguyễn Thành Thiện','2021-03-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (11,2,'Nguyễn Đức Thịnh','2021-03-26',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (2,6,'Hoàng Thị Thư','2021-03-27',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (2,4,'Nguyễn Văn Tiến','2021-03-28',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (2,1,'Trịnh Kiều Trang','2021-03-29',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (2,1,'Vũ Đình Văn','2020-01-23',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (25,1,'Nguyễn Văn Viên','2020-01-24',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (5,2,'Lê Đức Việt','2020-01-25',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (5,2,'Nguyễn Phương Yến','2020-01-26',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (11,2,'Lê Đức Minh','2020-01-27',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (12,3,'Nguyễn Ngọc Minh','2020-01-28',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (1,3,'Lương Việt Nhật','2020-01-29',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (1,3,'Đào Thanh Phong','2021-02-03',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (1,4,'Trịnh Minh Quang','2021-02-04',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (1,4,'Lê Văn Quý','2021-02-05',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (8,5,'Nguyễn Xuân Sơn','2021-02-06',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (8,5,'Nguyễn Thị Thắng','2021-02-07',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (6,1,'Vũ Đức Thắng','2021-02-08',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (2,2,'Đoàn Thu Thảo','2021-02-09',null);
+INSERT INTO tbl_xuatSP(masanpham,sl,tenNV,ngayxuat,ghichu) VALUES (4,5,'Hoàng Thị Thư','2021-02-10',null);
+
+
+
+
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (400,'sunfat4',10,3000.0000,null);
+
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (401,'ACETYLDIHYDROCODEIN',223,3001,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (402,'ALFENTANIL',557,3002,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (403,'ALPHAPRODINE',126,3003,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (404,'ANILERIDINE',334,3004,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (405,'BEZITRAMIDE',722,3005,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (406,'BUTORPHANOL',844,3006,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (407,'CIRAMADOL',335,3007,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (408,'COCAINE',447,3008,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (409,'CODEINE',723,3009,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (410,'DEXTROMORAMIDE',551,3010,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (411,'DEZOCIN',661,3011,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (412,'DIFENOXIN',884,3012,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (413,'DIHYDROCODEIN',224,3013,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (414,'DIPHENOXYLAT',153,3014,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (415,'DIPIPANONE',268,3015,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (416,'DROTEBANOL',195,3016,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (417,'ETHYL MORPHIN',472,3017,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (418,'FENTANYL',654,3018,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (419,'HYDROMORPHONE',258,3019,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (420,'KETOBEMIDON',621,3020,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (421,'LEVOMETHADON',248,3021,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (422,'LEVORPHANOL',571,3022,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (423,'MEPTAZINOL',55,3023,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (424,'METHADONE',596,3024,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (425,'MORPHINE',345,3025,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (426,'MYROPHINE',587,3026,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (427,'NALBUPHIN',777,3027,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (428,'NICOCODINE',954,3028,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (429,'NICODICODINE',842,3029,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (430,'NICOMORPHINE',165,3030,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (431,'NORCODEINE',482,3031,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (432,'OXYCODONE',247,3032,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (433,'OXYMORPHONE',157,3033,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (434,'PETHIDINE',624,3034,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (435,'PHENAZOCINE',357,3035,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (436,'PHOLCODIN',951,3036,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (437,'PIRITRAMIDE',478,3037,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (438,'PROPIRAM',874,3038,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (439,'REMIFENTANIL',214,3039,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (440,'SUFENTANIL',654,3040,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (441,'THEBACON',587,3041,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (442,'TONAZOCIN MESYLAT',774,3042,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (443,'TRAMADOL',141,3043,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (444,'ALLOBARBITAL',124,3044,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (445,'ALPRAZOLAM',884,3045,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (446,'AMFEPRAMONE',552,3046,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (447,'AMINOREX',641,3047,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (448,'AMOBARBITAL',326,3048,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (449,'BARBITAL',652,3049,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (450,'BENZFETAMINE',282,3050,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (451,'BROMAZEPAM',591,3051,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (452,'BROTIZOLAM',471,3052,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (453,'BUPRENORPHINE',164,3053,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (454,'BUTALBITAL',584,3054,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (455,'BUTOBARBITAL',214,3055,null);
+INSERT INTO tbl_nguyenlieu(manguyenlieu,tennguyenlieu,soluong,giathanh,ghichu) VALUES (456,'CAMAZEPAM',756,3056,null);
+
+
+
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (1,400,500,'Nguyễn Trường An','2019-02-10',null);
+
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (2,401,501,'Đỗ Long Anh','2019-02-10',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (3,402,232,'Ngô Hải Anh','2019-02-11',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (4,403,123,'Lê Văn Quý','2019-02-12',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (5,404,213,'Nguyễn Xuân Sơn','2019-02-13',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (6,405,534,'Nguyễn Thị Thắng','2019-02-14',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (7,406,776,'Vũ Đức Thắng','2019-02-15',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (8,407,834,'Trần Nhật Cương','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (9,408,676,'Chu Quang Dũng','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (10,409,345,'Lê Nguyên Dương','2019-02-18',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (11,410,756,'Bùi Trường Giang','2019-02-14',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (12,411,876,'Nguyễn Đức Hà','2019-02-15',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (13,412,344,'Nguyễn Thị Hà','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (14,451,87,'Ngô Hoàng Hiệp','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (15,452,234,'Văn Đình Hiếu','2019-02-10',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (16,453,583,'Phạm Huy Hoàn','2019-02-11',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (17,454,813,'Nguyễn Thị Hồng','2019-02-12',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (18,417,654,'Vũ Thị Mai Huê','2019-02-13',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (19,418,245,'Tô Ngọc Ký','2019-02-14',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (20,401,287,'Chu Quang Dũng','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (21,402,125,'Lê Nguyên Dương','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (22,403,682,'Bùi Trường Giang','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (23,404,258,'Nguyễn Đức Hà','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (24,423,698,'Đào Thanh Phong','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (25,424,167,'Trịnh Minh Quang','2019-02-18',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (26,425,111,'Lê Văn Quý','2019-02-14',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (27,426,689,'Nguyễn Xuân Sơn','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (28,427,268,'Nguyễn Thị Thắng','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (29,428,982,'Vũ Đức Thắng','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (30,429,691,'Đoàn Thu Thảo','2019-02-18',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (31,430,896,'Trần Văn Thế','2019-02-14',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (32,431,685,'Nguyễn Thành Thiện','2019-02-15',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (33,432,276,'Nguyễn Đức Thịnh','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (34,433,222,'Hoàng Thị Thư','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (35,434,547,'Nguyễn Văn Tiến','2019-02-18',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (36,435,444,'Trịnh Kiều Trang','2019-02-19',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (37,436,287,'Nguyễn Thị Vân Anh','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (38,437,325,'Nguyễn Đức Bắc','2019-02-14',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (39,438,146,'Trần Nhật Cương','2019-02-15',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (40,439,254,'Chu Quang Dũng','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (41,440,658,'Lê Nguyên Dương','2019-02-13',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (42,441,286,'Bùi Trường Giang','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (43,442,125,'Nguyễn Đức Hà','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (44,443,215,'Nguyễn Thị Hà','2019-02-10',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (45,444,255,'Trịnh Minh Quang','2019-02-11',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (46,412,798,'Lê Văn Quý','2019-02-12',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (47,413,141,'Nguyễn Xuân Sơn','2019-02-13',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (48,414,161,'Nguyễn Thị Thắng','2019-02-14',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (49,415,257,'Vũ Đức Thắng','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (50,416,156,'Đoàn Thu Thảo','2019-02-17',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (51,450,189,'Hoàng Thị Thư','2019-02-16',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (52,451,328,'Nguyễn Đức Hà','2019-02-12',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (53,452,158,'Nguyễn Thị Hà','2019-02-11',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (54,453,198,'Ngô Hoàng Hiệp','2019-02-12',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (55,454,987,'Văn Đình Hiếu','2019-02-12',null);
+INSERT INTO tbl_nhapNL(manhapNL,manguyenlieu,sl,tenNV,ngaynhap,ghichu) VALUES (56,455,700,'Đoàn Thu Thảo','2019-02-12',null);
+
+
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (1,400,7,'Nguyễn Trường An','2020-10-12',null);
+
+
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (2,401,5,'Lê Văn Quý','2020-10-12',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (3,402,6,'Nguyễn Xuân Sơn','2020-06-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (4,403,2,'Nguyễn Thị Thắng','2020-06-16',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (5,404,1,'Vũ Đức Thắng','2020-10-20',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (6,405,4,'Đoàn Thu Thảo','2020-10-23',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (7,406,5,'Trần Văn Thế','2020-10-25',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (8,407,6,'Nguyễn Thành Thiện','2020-06-12',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (9,408,8,'Nguyễn Đức Thịnh','2020-06-13',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (10,409,7,'Lê Nguyên Dương','2020-10-14',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (11,410,9,'Bùi Trường Giang','2020-10-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (12,411,1,'Nguyễn Đức Hà','2020-10-22',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (13,412,2,'Nguyễn Thị Hà','2020-10-23',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (14,413,4,'Ngô Hoàng Hiệp','2020-10-24',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (15,414,3,'Nguyễn Thị Thắng','2020-10-25',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (16,415,5,'Vũ Đức Thắng','2020-06-12',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (17,416,10,'Nguyễn Đức Hà','2020-06-13',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (18,417,10,'Nguyễn Thị Hà','2020-06-14',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (19,418,54,'Trịnh Minh Quang','2020-06-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (20,419,10,'Lê Văn Quý','2020-06-16',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (21,420,5,'Nguyễn Xuân Sơn','2020-06-17',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (22,421,10,'Nguyễn Thị Thắng','2020-06-18',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (23,422,4,'Vũ Đức Thắng','2020-06-19',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (24,423,7,'Đoàn Thu Thảo','2020-06-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (25,424,0,'Hoàng Thị Thư','2020-06-16',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (26,425,5,'Nguyễn Đức Hà','2020-10-20',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (27,426,4,'Nguyễn Thị Hà','2020-10-21',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (28,427,8,'Ngô Hoàng Hiệp','2020-10-22',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (29,428,10,'Vũ Đức Thắng','2020-10-23',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (30,429,2,'Đoàn Thu Thảo','2020-10-24',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (31,430,5,'Trần Văn Thế','2020-10-25',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (32,431,10,'Nguyễn Thành Thiện','2020-06-12',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (33,432,6,'Nguyễn Đức Thịnh','2020-06-13',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (34,433,4,'Hoàng Thị Thư','2020-06-14',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (35,434,1,'Nguyễn Văn Tiến','2020-06-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (36,435,3,'Trịnh Kiều Trang','2020-10-14',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (37,436,5,'Nguyễn Thị Vân Anh','2020-10-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (38,437,10,'Nguyễn Đức Bắc','2020-06-13',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (39,438,7,'Trần Nhật Cương','2020-06-14',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (40,439,9,'Chu Quang Dũng','2020-06-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (41,440,1,'Lê Nguyên Dương','2020-06-16',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (42,441,10,'Bùi Trường Giang','2020-10-20',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (43,442,10,'Nguyễn Đức Hà','2020-10-23',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (44,443,47,'Nguyễn Thị Hà','2020-10-24',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (45,444,6,'Trịnh Minh Quang','2020-10-25',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (46,445,10,'Lê Văn Quý','2020-06-12',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (47,446,7,'Nguyễn Xuân Sơn','2020-06-13',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (48,447,2,'Nguyễn Thị Thắng','2020-10-14',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (49,448,5,'Vũ Đức Thắng','2020-10-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (50,449,8,'Đoàn Thu Thảo','2020-06-13',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (51,450,2,'Hoàng Thị Thư','2020-06-14',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (52,451,7,'Nguyễn Đức Hà','2020-06-15',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (53,452,6,'Nguyễn Thị Hà','2020-06-16',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (54,453,1,'Ngô Hoàng Hiệp','2020-06-13',null);
+INSERT INTO tbl_xuatNL(maxuatNL,manguyenlieu,sl,tenNV,ngayxuat,ghichu) VALUES (55,454,8,'Văn Đình Hiếu','2020-10-14',null);
+
+
+
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (600,400,1,'Tạo hạt','VIII',null);
+
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (601,401,2,'Trộn ướt','I',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (602,428,37,'Sửa hạt ướt','II',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (603,429,33,'Sấy','III',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (604,404,5,'Sửa hạt','IV',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (605,420,42,'Trộn lại','V',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (606,406,7,'Thêm tá dược','VI',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (607,407,28,'Kiểm nghiệm bán thành phần','VII',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (608,404,9,'Vô túi','VIII',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (609,409,10,'Vô nang','VIII',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (610,410,11,'Dập viên','VIII',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (611,433,34,'Kiểm nghiệm','IX',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (612,412,13,'Viên trần','X',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (613,413,14,'Viên bao','X',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (614,439,53,'Đóng gói','X',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (615,440,16,'Bao viên','X',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (616,416,50,'Dập viên','X',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (617,444,18,'Đóng chai','X',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (618,418,19,'Đóng hộp','X',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (619,419,42,'Sấy cốm','I',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (620,449,46,'Kiểm nghiệm bán thành phẩm','VI',null);
+INSERT INTO tbl_quytrinh(maquytrinh,maNL,maSP,tenquytrinh,giaidoan,ghichu) VALUES (621,450,22,'Phân liều','VII',null);
+
+
+
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (11,'Nguyễn Trường An',1,2,1,'nam','2000-01-01','69DCHT23','69DCHT20002@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+
+
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (12,'Đỗ Long Anh',2,3,2,'nam','2000-01-02','69DCHT23','69DCHT20005@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (13,'Ngô Hải Anh',3,2,3,'nam','2000-01-03','69DCHT23','HI@gmail.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (14,'Nguyễn Đức Anh',1,3,4,'nam','2000-01-04','69DCHT23','69DCHT20004@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (15,'Nguyễn Ngọc Anh',2,2,5,'nam','2000-01-05','69DCHT23','69DCHT20008@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (16,'Nguyễn Thị Vân Anh',3,3,6,'nữ','2000-01-06','69DCHT23','69DCHT20007@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (17,'Nguyễn Đức Bắc',1,2,7,'nam','2000-01-07','69DCHT23','69DCHT20013@student.utt.vn',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (18,'Trần Nhật Cương',2,3,8,'nam','2000-01-08','69DCHT23','69DCHT20016@student.utt.vn',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (19,'Chu Quang Dũng',3,2,9,'nam','2000-01-09','69DCHT23','69DCHT20022@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (20,'Lê Nguyên Dương',1,3,10,'nữ','2000-01-10','69DCHT23','69DCHT20025@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (21,'Bùi Trường Giang',2,2,1,'nam','2000-01-11','69DCHT23','69DCHT20034@student.utt.vn',null,'2018-08-25',null);
+
+
+
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (22,'Nguyễn Đức Hà',3,3,2,'nam','2000-01-12','69DCHT23','69DCHT20037@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (23,'Nguyễn Thị Hà',1,2,3,'nữ','2000-01-13','69DCHT23','69DCHT20038@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (24,'Ngô Hoàng Hiệp',2,3,4,'nam','2000-01-14','69DCHT23','69DCCK20052@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (25,'Văn Đình Hiếu',3,2,5,'nam','2000-01-15','69DCHT23','69DCHT20044@student.utt.vn',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (26,'Phạm Huy Hoàn',1,3,6,'nữ','2000-01-16','69DCHT23','HII@gmail.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (27,'Nguyễn Thị Hồng',2,2,7,'nữ','2000-01-17','69DCHT23','69DCHT20052@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (28,'Vũ Thị Mai Huê',3,3,8,'nữ','2000-01-18','69DCHT23','69DCHT20054@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (29,'Tô Ngọc Ký',1,2,9,'nam','2000-01-19','69DCHT23','69DCCK20067@student.utt.vn',null,'2018-08-25',null);
+
+
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (30,'Đỗ Xuân Mạnh',2,3,10,'nam','2000-01-20','69DCHT23','69DCHT20079@student.utt.vn',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (31,'Lê Đức Minh',3,2,1,'nam','2000-01-21','69DCHT23','69DCHT20081@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (32,'Nguyễn Ngọc Minh',1,3,2,'nam','2000-01-22','69DCHT23','69DCHT20082@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (33,'Lương Việt Nhật',2,2,3,'nam','2000-01-23','69DCHT23','69DCHT10024@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (34,'Đào Thanh Phong',3,3,4,'nam','2000-01-24','69DCHT23','69DCHT20091@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (35,'Trịnh Minh Quang',1,2,5,'nam','2000-02-01','69DCHT23','69DCHT20093@student.utt.vn',null,'2018-08-25',null);
+
+
+
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (36,'Lê Văn Quý',2,3,6,'nam','2000-02-02','69DCHT23','69DCHT20095@student.utt.vn',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (37,'Nguyễn Xuân Sơn',3,2,7,'nam','2000-02-03','69DCHT23','69DCHT20098@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (38,'Nguyễn Thị Thắng',1,3,8,'nữ','2000-02-04','69DCHT23','69DCHT20104@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (39,'Vũ Đức Thắng',2,2,9,'nam','2000-02-05','69DCHT23','69DCHT20102@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (40,'Đoàn Thu Thảo',3,3,10,'nữ','2000-02-06','69DCHT23','69DCHT20107@student.utt.vn',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (41,'Trần Văn Thế',1,2,1,'nam','2000-02-07','69DCHT23','69DCHT20109@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (42,'Nguyễn Thành Thiện',2,3,2,'nam','2000-02-08','69DCHT23','69DCHT10032@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+
+
+
+
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (43,'Nguyễn Đức Thịnh',3,2,3,'nam','2000-02-09','69DCHT23','69DCHT20112@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (44,'Hoàng Thị Thư',1,3,4,'nữ','2000-02-10','69DCHT23','69DCHT20115@student.utt.vn',null,'2018-08-25','Kỳ 1 năm nhất có anh tràng say đắm vì nàng');
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (45,'Nguyễn Văn Tiến',2,2,5,'nam','2000-02-11','69DCHT23','69DCHT20116@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (46,'Trịnh Kiều Trang',3,3,6,'nữ','2000-02-12','69DCHT23','69DCHT20119@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (47,'Vũ Đình Văn',1,2,7,'nam','2000-02-13','69DCHT23','69DCHT20131@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (48,'Nguyễn Văn Viên',2,3,8,'nam','2000-02-14','69DCHT23','69DCHT20133@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (49,'Lê Đức Việt',3,2,9,'nam','2000-02-15','69DCHT23','69DCHT20134@utteduvn.onmicrosoft.com',null,'2018-08-25',null);
+INSERT INTO tbl_nhanvien(manhanvien,tennhanvien,maphongban,machucvu,maluong,gioitinh,ngaysinh,diachi,email,sdt,ngaynhamchuc,ghichu) VALUES (50,'Nguyễn Phương Yến',1,3,10,'nữ','2000-02-16','69DCHT23','69DCHT20139@utteduvn.onmicrosoft.com',null,'2018-08-25','Hôm nọ tuấn xin info...');
+
+
+
+
