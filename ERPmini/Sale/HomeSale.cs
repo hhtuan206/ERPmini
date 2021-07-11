@@ -217,5 +217,10 @@ namespace ERPmini.Sale
         {
             
         }
+
+        private void dgvTempProduct_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }

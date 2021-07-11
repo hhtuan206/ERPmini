@@ -1,0 +1,111 @@
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (100,'',null);
+
+
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (100,'Nitro hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (101,'Sulfo hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (102,'Halogen hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (103,'Alkyl hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (104,'Acyl hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (105,'Ester hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (106,'Phản ứng thủy phân',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (107,'Oxy hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (108,'Khử hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (109,'Diazo hóa',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (110,'Phản ứng ngưng tụ',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (111,'Phản ứng chuyển vị',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (112,'Một số kiến thức cơ bản về chiết xuất dược liệu',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (113,'Một số quá trình thường gặp ở giai đoạn tinh chế',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (114,'Kỹ thuật sản xuất nguyên liệu dưới dạng cao thuốc',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (115,'Chiết xuất alcaloid',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (116,'Chiết xuất hoạt chất có nguồn gốc tự nhiên khác',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (117,'DƯỢC ĐỘNG HỌC',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (118,'DỊCH TỄ DƯỢC HỌC',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (119,'CHĂM SÓC DƯỢC',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (120,'KỸ THUẬT BÀO CHẾ VÀ SINH DƯỢC HỌC',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (121,'KỸ THUẬT BÀO CHẾ',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (122,'KỸ THUẬT SẢN XUẤT DƯỢC PHẨM',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (123,'CÔNG NGHỆ SẢN XUẤT CÁC DẠNG THUỐC',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (124,'PHƯƠNG PHÁP SINH TỔNG HỢP',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (125,'KIỂM NGHIỆM THUỐC',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (126,'BÀO CHẾ ĐÔNG DƯỢC',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (127,'A PHÂN TÍCH - TẬP 1',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (128,'SINH HỌC PHÂN TỬ',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (129,'CÔNG NGHỆ BÀO CHẾ DƯỢC PHẨM',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (130,'MIỄN DỊCH HỌC CƠ SỞ',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (131,'Hướng dẫn thực hành tốt sản xuất thuốc',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (132,'WHO_GMP_1',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (133,'WHO_GMP_2',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (134,'WHO_GMP_3',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (135,'WHO_GMP_4',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (136,'WHO_GMP_5',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (137,'WHO_GMP_6',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (138,'WHO_GMP_7',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (139,'WHO_GMP_8',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (140,'WHO_GMP_9',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (141,'WHO_GMP_10',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (142,'WHO_GMP_11',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (143,'WHO_GMP_12',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (144,'WHO_GMP_13',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (145,'WHO_GMP_14',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (146,'WHO_GMP_15',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (147,'WHO_GMP_16',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (148,'WHO_GMP_17',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (149,'WHO_GMP_18',null);
+INSERT INTO tbl_tailieu(maTL,tenTL,ghichu) VALUES (150,'WHO_GMP_19',null);
+
+
+
+
+
+
+
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('14 14 62 22','Lê Văn Luyện','Hà Huy Tuấn','2021-07-11',null);
+
+
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('32 56 22 17','Mai Tuấn Anh','Nguyễn Trường An','2020-02-10',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('32 56 54','Nguyễn Đức Anh','Đỗ Long Anh','2020-02-11',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('24 18 62','Phạm Xuân Cường','Ngô Hải Anh','2020-02-12',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('14 35 22','Dương Quốc Đạt','Nguyễn Đức Anh','2020-02-13',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('14','Tạ Tiến Duật','Nguyễn Ngọc Anh','2020-02-14',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('29','Đoàn Minh Đức','Nguyễn Thị Vân Anh','2020-02-15',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('57','Khổng Minh Đức','Nguyễn Đức Bắc','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('12 32 56 ','Lê Quốc Dũng','Trần Nhật Cương','2020-02-17',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('14','Nguyễn Hải Dương','Chu Quang Dũng','2020-02-18',null);
+
+
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('17','Nguyễn Tuấn Dương','Lê Nguyên Dương','2020-02-14',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('11','Trương Tùng Dương','Bùi Trường Giang','2020-02-15',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('10','Nguyễn Sỹ Hà','Nguyễn Đức Hà','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('9','Ma Đức Hải','Nguyễn Thị Hà','2020-02-17',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('7','Vũ Nam Hải','Ngô Hoàng Hiệp','2020-02-10',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('4','Lương Hồng Hạnh','Văn Đình Hiếu','2020-02-11',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('6 5 18 69','Nguyễn Huy Hiệp','Phạm Huy Hoàn','2020-02-12',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('49 41','Đỗ Minh Hiếu','Nguyễn Thị Hồng','2020-02-13',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('12 34','Đỗ Thị Hoài','Vũ Thị Mai Huê','2020-02-14',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('56 60','Nguyễn Thị Hồng','Tô Ngọc Ký','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('17 2','Vũ Mạnh Hùng','Đỗ Xuân Mạnh','2020-02-17',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('17 64','Lưu Quốc Khánh','Lê Đức Minh','2020-02-16',null);
+
+
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('55 11','Ngô Ngọc Kiên','Nguyễn Ngọc Minh','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('11 22','Mai Thị Lan','Lương Việt Nhật','2020-02-17',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('22 33','Nguyễn Thùy Linh','Đào Thanh Phong','2020-02-18',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('33 44','Đặng Bùi Ngọc Long','Trịnh Minh Quang','2020-02-14',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('44 55','Nguyễn Hoàng Long','Lê Văn Quý','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('55 66','Nguyễn Hoàng Long','Nguyễn Xuân Sơn','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('1 17 50','Nguyễn Hoàng Long','Nguyễn Thị Thắng','2020-02-17',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('10 20','Trần Khánh Ly','Vũ Đức Thắng','2020-02-18',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('20 30','Lê Thế Mỹ','Đoàn Thu Thảo','2020-02-14',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('30 40','Ngô Tiến Nam','Trần Văn Thế','2020-02-15',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('40 50','Lê Ngọc Nhật','Nguyễn Thành Thiện','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('50 60','Nguyễn Hùng Quân','Nguyễn Đức Thịnh','2020-02-17',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('60 70','Trần Minh Quang','Hoàng Thị Thư','2020-02-18',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('21 31','Lê Ngọc Quyết','Nguyễn Văn Tiến','2020-02-20',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('31 41','Lê Trọng Tấn','Trịnh Kiều Trang','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('41 51','Nguyễn Hữu Thắng','Vũ Đình Văn','2020-02-14',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('51 61','Phạm Thị Minh Thu','Nguyễn Văn Viên','2020-02-15',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('22 23','Trần Tuấn Trọng','Lê Đức Việt','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('32 22','Hà Huy Tuấn','Nguyễn Phương Yến','2020-02-13',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('45 54','Lê Đình Tuyền','Trịnh Minh Quang','2020-02-16',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('54 45','Nguyễn Thúy Vân','Lê Văn Quý','2020-02-17',null);
+INSERT INTO tbl_hoadon(maxuatSP,tenKH,tenNV,ngaytao,ghichu) VALUES ('44 54','Kiều Bá Việt','Nguyễn Xuân Sơn','2020-02-10',null);

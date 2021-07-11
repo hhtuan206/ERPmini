@@ -7,7 +7,7 @@ namespace HMS.DAO
     public class DataProvider
     {
         private string connectionSTR = "Data Source=.;Initial Catalog=db_qlsxduoc;User ID=sa;Integrated Security=True";
-
+        
         private static DataProvider instance; // Ctrl + R + E
 
         public static DataProvider Instance
