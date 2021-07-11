@@ -925,11 +925,14 @@
             // 
             // txtManv
             // 
+            this.txtManv.Enabled = false;
             this.txtManv.Location = new System.Drawing.Point(216, 69);
             this.txtManv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtManv.Name = "txtManv";
+            this.txtManv.ReadOnly = true;
             this.txtManv.Size = new System.Drawing.Size(211, 22);
             this.txtManv.TabIndex = 1;
+            this.txtManv.TabStop = false;
             // 
             // txtSdt
             // 
