@@ -30,46 +30,70 @@ namespace ERPmini.Sale
 
         private void loadInfoStaff(string manv)
         {
-            DataTable data = NhanVienDAO.Instance.getInfo(manv);
-            txtManv.Text = manv;
-            foreach (DataRow row in data.Rows)
+            try
             {
-                txtHoten.Text = row["tennhanvien"].ToString();
-                txtDiachi.Text = row["diachi"].ToString();
-                txtSdt.Text = row["sdt"].ToString();
-                dtpNgaysinh.Value = Convert.ToDateTime(row["ngaysinh"].ToString());
-                cbGt.Text = row["gioitinh"].ToString();
-                txtMail.Text = row["email"].ToString();
-                txtUsn.Text = row["tentaikhoan"].ToString();
-                txtPwd.Text = row["matkhau"].ToString();
+                DataTable data = NhanVienDAO.Instance.getInfo(manv);
+                txtManv.Text = manv;
+                foreach (DataRow row in data.Rows)
+                {
+                    txtHoten.Text = row["tennhanvien"].ToString();
+                    txtDiachi.Text = row["diachi"].ToString();
+                    txtSdt.Text = row["sdt"].ToString();
+                    dtpNgaysinh.Value = Convert.ToDateTime(row["ngaysinh"].ToString());
+                    cbGt.Text = row["gioitinh"].ToString();
+                    txtMail.Text = row["email"].ToString();
+                    txtUsn.Text = row["tentaikhoan"].ToString();
+                    txtPwd.Text = row["matkhau"].ToString();
+                }
             }
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         void loadProduct()
         {
-            DataTable data = SanPhamDAO.Instance.getAllProduct();
-            dgvSanPham.DataSource = data;
-            dgvSanPham.Refresh();
-            dgvProduct.DataSource = data;
-            dgvProduct.Refresh();
+            try
+            {
+                DataTable data = SanPhamDAO.Instance.getAllProduct();
+                dgvSanPham.DataSource = data;
+                dgvSanPham.Refresh();
+                dgvProduct.DataSource = data;
+                dgvProduct.Refresh();
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         void getTempProduct()
         {
-            foreach (DataGridViewRow row in dgvProduct.SelectedRows)
+            try
             {
-                if (numQty.Value > 0)
+                foreach (DataGridViewRow row in dgvProduct.SelectedRows)
                 {
-                    String[] row1 = { row.Cells[0].Value.ToString(), row.Cells[1].Value.ToString(), numQty.Value.ToString(), row.Cells[3].Value.ToString() };
-                    dgvTempProduct.Rows.Add(row1);
-                }
-                else
-                {
-                    MessageBox.Show("Số lượng phải lớn hơn 0", "Thông báo");
-                }
+                    if (numQty.Value > 0)
+                    {
+                        String[] row1 = { row.Cells[0].Value.ToString(), row.Cells[1].Value.ToString(), numQty.Value.ToString(), row.Cells[3].Value.ToString() };
+                        dgvTempProduct.Rows.Add(row1);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Số lượng phải lớn hơn 0", "Thông báo");
+                    }
 
+
+                }
+            }
+            catch (Exception ex)
+            {
 
             }
+            
         }
 
         private void btnAddTempProduct_Click(object sender, EventArgs e)
@@ -84,22 +108,30 @@ namespace ERPmini.Sale
 
         void xuatSp()
         {
-            string maxuatSP = "";
-            for (int i = 0; i < dgvTempProduct.Rows.Count; i++)
+            try
             {
-                if (dgvTempProduct.Rows.Count - 1 == i)
+                string maxuatSP = "";
+                for (int i = 0; i < dgvTempProduct.Rows.Count; i++)
                 {
-                    maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtSaler.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + "";
-                }
-                else
-                {
-                    maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtSaler.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + " ";
+                    if (dgvTempProduct.Rows.Count - 1 == i)
+                    {
+                        maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtSaler.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + "";
+                    }
+                    else
+                    {
+                        maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtSaler.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + " ";
+
+                    }
 
                 }
+                HoaDonDAO.Instance.insertData(maxuatSP, txtCustomer.Text.ToString(), txtSaler.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd"));
 
             }
-            HoaDonDAO.Instance.insertData(maxuatSP, txtCustomer.Text.ToString(), txtSaler.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd"));
+            catch (Exception ex)
+            {
 
+            }
+            
         }
 
         private void btnSave_Click(object sender, EventArgs e)

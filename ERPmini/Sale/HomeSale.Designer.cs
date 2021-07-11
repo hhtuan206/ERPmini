@@ -48,6 +48,13 @@
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel6 = new System.Windows.Forms.Panel();
             this.dgvProduct = new System.Windows.Forms.DataGridView();
+            this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.so = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.don = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngaysx = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.han = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ghi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.panel5 = new System.Windows.Forms.Panel();
             this.txtSaler = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
@@ -105,13 +112,6 @@
             this.label12 = new System.Windows.Forms.Label();
             this.txtUsn = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
-            this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.so = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.don = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngaysx = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.han = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ghi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabXuat.SuspendLayout();
             this.panel10.SuspendLayout();
@@ -361,6 +361,62 @@
             this.dgvProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgvProduct.Size = new System.Drawing.Size(765, 558);
             this.dgvProduct.TabIndex = 0;
+            // 
+            // ma
+            // 
+            this.ma.DataPropertyName = "masanpham";
+            this.ma.HeaderText = "Mã sản phẩm";
+            this.ma.MinimumWidth = 6;
+            this.ma.Name = "ma";
+            this.ma.Width = 125;
+            // 
+            // ten
+            // 
+            this.ten.DataPropertyName = "tensanpham";
+            this.ten.HeaderText = "Tên sản phẩm";
+            this.ten.MinimumWidth = 6;
+            this.ten.Name = "ten";
+            this.ten.Width = 125;
+            // 
+            // so
+            // 
+            this.so.DataPropertyName = "soluong";
+            this.so.HeaderText = "Số lượng";
+            this.so.MinimumWidth = 6;
+            this.so.Name = "so";
+            this.so.Width = 125;
+            // 
+            // don
+            // 
+            this.don.DataPropertyName = "dongia";
+            this.don.HeaderText = "Đơn giá";
+            this.don.MinimumWidth = 6;
+            this.don.Name = "don";
+            this.don.Width = 125;
+            // 
+            // ngaysx
+            // 
+            this.ngaysx.DataPropertyName = "ngaysanxuat";
+            this.ngaysx.HeaderText = "Ngày sản xuất";
+            this.ngaysx.MinimumWidth = 6;
+            this.ngaysx.Name = "ngaysx";
+            this.ngaysx.Width = 125;
+            // 
+            // han
+            // 
+            this.han.DataPropertyName = "hansudung";
+            this.han.HeaderText = "Hạn sử dụng";
+            this.han.MinimumWidth = 6;
+            this.han.Name = "han";
+            this.han.Width = 125;
+            // 
+            // ghi
+            // 
+            this.ghi.DataPropertyName = "ghichu";
+            this.ghi.HeaderText = "Ghi chú";
+            this.ghi.MinimumWidth = 6;
+            this.ghi.Name = "ghi";
+            this.ghi.Width = 125;
             // 
             // panel5
             // 
@@ -839,9 +895,11 @@
             // 
             // txtManv
             // 
+            this.txtManv.Enabled = false;
             this.txtManv.Location = new System.Drawing.Point(203, 105);
             this.txtManv.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtManv.Name = "txtManv";
+            this.txtManv.ReadOnly = true;
             this.txtManv.Size = new System.Drawing.Size(304, 22);
             this.txtManv.TabIndex = 1;
             // 
@@ -1007,62 +1065,6 @@
             this.label11.Size = new System.Drawing.Size(105, 17);
             this.label11.TabIndex = 0;
             this.label11.Text = "Tên đăng nhập";
-            // 
-            // ma
-            // 
-            this.ma.DataPropertyName = "masanpham";
-            this.ma.HeaderText = "Mã sản phẩm";
-            this.ma.MinimumWidth = 6;
-            this.ma.Name = "ma";
-            this.ma.Width = 125;
-            // 
-            // ten
-            // 
-            this.ten.DataPropertyName = "tensanpham";
-            this.ten.HeaderText = "Tên sản phẩm";
-            this.ten.MinimumWidth = 6;
-            this.ten.Name = "ten";
-            this.ten.Width = 125;
-            // 
-            // so
-            // 
-            this.so.DataPropertyName = "soluong";
-            this.so.HeaderText = "Số lượng";
-            this.so.MinimumWidth = 6;
-            this.so.Name = "so";
-            this.so.Width = 125;
-            // 
-            // don
-            // 
-            this.don.DataPropertyName = "dongia";
-            this.don.HeaderText = "Đơn giá";
-            this.don.MinimumWidth = 6;
-            this.don.Name = "don";
-            this.don.Width = 125;
-            // 
-            // ngaysx
-            // 
-            this.ngaysx.DataPropertyName = "ngaysanxuat";
-            this.ngaysx.HeaderText = "Ngày sản xuất";
-            this.ngaysx.MinimumWidth = 6;
-            this.ngaysx.Name = "ngaysx";
-            this.ngaysx.Width = 125;
-            // 
-            // han
-            // 
-            this.han.DataPropertyName = "hansudung";
-            this.han.HeaderText = "Hạn sử dụng";
-            this.han.MinimumWidth = 6;
-            this.han.Name = "han";
-            this.han.Width = 125;
-            // 
-            // ghi
-            // 
-            this.ghi.DataPropertyName = "ghichu";
-            this.ghi.HeaderText = "Ghi chú";
-            this.ghi.MinimumWidth = 6;
-            this.ghi.Name = "ghi";
-            this.ghi.Width = 125;
             // 
             // HomeSale
             // 

@@ -46,39 +46,88 @@ namespace ERPmini.Storage
 
         void bind()
         {
-            txtId.DataBindings.Add(new Binding("Text", dgvProduct.DataSource, "masanpham"));
-            txtNameProduct.DataBindings.Add(new Binding("Text", dgvProduct.DataSource, "tensanpham"));
-            txtPrice.DataBindings.Add(new Binding("Text", dgvProduct.DataSource, "dongia"));
-            nudQty.DataBindings.Add("Value", dgvProduct.DataSource,"soluong");
+            try
+            {
+                txtId.DataBindings.Add(new Binding("Text", dgvProduct.DataSource, "masanpham"));
+                txtNameProduct.DataBindings.Add(new Binding("Text", dgvProduct.DataSource, "tensanpham"));
+                txtPrice.DataBindings.Add(new Binding("Text", dgvProduct.DataSource, "dongia"));
+                nudQty.DataBindings.Add("Value", dgvProduct.DataSource, "soluong");
+            }
+            catch (Exception ex)
+            {
+
+            }
+            
         }
 
         void loadProduct()
         {
-            bindingSource.DataSource = SanPhamDAO.Instance.getAllProduct();
-            dgvProduct.DataSource = bindingSource;
-            dgvProduct.Refresh();
-            dgvSanpham.DataSource = bindingSource;
+            try
+            {
+                bindingSource.DataSource = SanPhamDAO.Instance.getAllProduct();
+                dgvProduct.DataSource = bindingSource;
+                dgvProduct.Refresh();
+                dgvSanpham.DataSource = bindingSource;
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
         {
-            int masp = SanPhamDAO.Instance.insertProduct(txtNameProduct.Text.ToString(),nudQty.Value.ToString(),txtPrice.Text.ToString(),dtpNsx.Value.ToString(),dtpHsd.Value.ToString());
-            NhapSanPhamDAO.Instance.insertData(masp.ToString(),"0",Storager);
+            try
+            {
+                int masp = SanPhamDAO.Instance.insertProduct(txtNameProduct.Text.ToString(), nudQty.Value.ToString(), txtPrice.Text.ToString(), dtpNsx.Value.ToString(), dtpHsd.Value.ToString());
+                NhapSanPhamDAO.Instance.insertData(masp.ToString(), "0", Storager);
+            }
+            catch (Exception ex)
+            {
+
+            }
+            
         }
 
         private void btnEdit_Click(object sender, EventArgs e)
         {
-            SanPhamDAO.Instance.updateProduct(txtId.Text.ToString(),txtNameProduct.Text.ToString(),txtPrice.Text.ToString(),dtpNsx.Value.ToString(), dtpHsd.Value.ToString());
-        }
+            try
+            {
+                SanPhamDAO.Instance.updateProduct(txtId.Text.ToString(), txtNameProduct.Text.ToString(), txtPrice.Text.ToString(), dtpNsx.Value.ToString(), dtpHsd.Value.ToString());
+
+            }
+            catch (Exception ex)
+            {
+
+            }
+            }
 
         private void btnDel_Click(object sender, EventArgs e)
         {
-            SanPhamDAO.Instance.deleteProduct(txtId.Text.ToString());
+            try
+            {
+                SanPhamDAO.Instance.deleteProduct(txtId.Text.ToString());
+            }
+            catch (Exception ex)
+            {
+
+            }
+            
         }
 
         private void btnUpdateQty_Click(object sender, EventArgs e)
         {
-            NhapSanPhamDAO.Instance.insertData(txtId.Text.ToString(), nudQty.Value.ToString(), Storager);
+            try
+            {
+                NhapSanPhamDAO.Instance.insertData(txtId.Text.ToString(), nudQty.Value.ToString(), Storager);
+                MessageBox.Show("Cập nhật số lượng thành công");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Lỗi");
+            }
+           
         }
 
         private void btnRefresh_Click(object sender, EventArgs e)
@@ -88,35 +137,59 @@ namespace ERPmini.Storage
 
         private void txtSearch_TextChanged(object sender, EventArgs e)
         {
-            bindingSource.DataSource = SanPhamDAO.Instance.getAllProductByName(txtSearch.Text.ToString());
-            dgvProduct.DataSource = bindingSource;
-            dgvProduct.Refresh();
+            try
+            {
+                bindingSource.DataSource = SanPhamDAO.Instance.getAllProductByName(txtSearch.Text.ToString());
+                dgvProduct.DataSource = bindingSource;
+                dgvProduct.Refresh();
+            }
+            catch (Exception ex)
+            {
+
+            }
+            
         }
 
         private void txtKeyWord_TextChanged(object sender, EventArgs e)
         {
-            DataTable data = SanPhamDAO.Instance.getAllProductByName(txtKeyWord.Text.ToString());
-            dgvSanpham.DataSource = data;
-            dgvSanpham.Refresh();
+            try
+            {
+                DataTable data = SanPhamDAO.Instance.getAllProductByName(txtKeyWord.Text.ToString());
+                dgvSanpham.DataSource = data;
+                dgvSanpham.Refresh();
+            }
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         private void btnSave_Click(object sender, EventArgs e)
         {
-            string maxuatSP = "";
-            for (int i = 0; i < dgvTempProduct.Rows.Count; i++)
+            try
             {
-                if (dgvTempProduct.Rows.Count - 1 == i)
+                string maxuatSP = "";
+                for (int i = 0; i < dgvTempProduct.Rows.Count; i++)
                 {
-                    maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtStorager.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + "";
-                }
-                else
-                {
-                    maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtStorager.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + " ";
+                    if (dgvTempProduct.Rows.Count - 1 == i)
+                    {
+                        maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtStorager.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + "";
+                    }
+                    else
+                    {
+                        maxuatSP += XuatSanPhamDAO.Instance.insertData(dgvTempProduct.Rows[i].Cells["id"].Value.ToString(), dgvTempProduct.Rows[i].Cells["soluong"].Value.ToString(), txtStorager.Text.ToString(), DateTime.Today.ToString("yyyy-MM-dd")) + " ";
 
+                    }
                 }
+                MessageBox.Show("Thành công");
+                loadProduct();
             }
-            MessageBox.Show("Thành công");
-            loadProduct();
+            catch (Exception ex)
+            {
+
+            }
+           
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -131,20 +204,28 @@ namespace ERPmini.Storage
 
         void getTempProduct()
         {
-            foreach (DataGridViewRow row in dgvSanpham.SelectedRows)
+            try
             {
-                if (nudQtyTemp.Value > 0)
+                foreach (DataGridViewRow row in dgvSanpham.SelectedRows)
                 {
-                    String[] row1 = { row.Cells[0].Value.ToString(), row.Cells[1].Value.ToString(), nudQtyTemp.Value.ToString(), row.Cells[3].Value.ToString() };
-                    dgvTempProduct.Rows.Add(row1);
-                }
-                else
-                {
-                    MessageBox.Show("Số lượng phải lớn hơn 00", "Thông báo");
-                }
+                    if (nudQtyTemp.Value > 0)
+                    {
+                        String[] row1 = { row.Cells[0].Value.ToString(), row.Cells[1].Value.ToString(), nudQtyTemp.Value.ToString(), row.Cells[3].Value.ToString() };
+                        dgvTempProduct.Rows.Add(row1);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Số lượng phải lớn hơn 00", "Thông báo");
+                    }
 
+
+                }
+            }
+            catch (Exception ex)
+            {
 
             }
+            
         }
 
         private void btnUpdateAcc_Click(object sender, EventArgs e)
@@ -170,22 +251,31 @@ namespace ERPmini.Storage
 
         private void btnNhap_Click(object sender, EventArgs e)
         {
-            if (!pnlThongKe.Controls.Contains(ucNhapSP.Instance))
+            try
             {
-                ucNhapSP ucnhapSP = new ucNhapSP(Storager);
-                pnlThongKe.Controls.Add(ucnhapSP);
-                ucnhapSP.Dock = DockStyle.Fill;
-                ucnhapSP.BringToFront();
+                if (!pnlThongKe.Controls.Contains(ucNhapSP.Instance))
+                {
+                    ucNhapSP ucnhapSP = new ucNhapSP(Storager);
+                    pnlThongKe.Controls.Add(ucnhapSP);
+                    ucnhapSP.Dock = DockStyle.Fill;
+                    ucnhapSP.BringToFront();
+                }
+                else
+                {
+                    ucNhapSP ucGD = new ucNhapSP(Storager);
+                    ucGD.BringToFront();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                ucNhapSP ucGD = new ucNhapSP(Storager);
-                ucGD.BringToFront();
+
             }
+           
         }
 
         private void btnXuat_Click(object sender, EventArgs e)
         {
+
             if (!pnlThongKe.Controls.Contains(ucXuatSP.Instance))
             {
                 ucXuatSP ucnhapSP = new ucXuatSP(Storager);

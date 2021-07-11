@@ -51,6 +51,13 @@
             this.label1 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.dgvProduct = new System.Windows.Forms.DataGridView();
+            this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.sl = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.don = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ngaysx = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.han = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.ghichu = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.btnCancel = new System.Windows.Forms.Button();
@@ -69,6 +76,13 @@
             this.soluong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.price = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dgvSanpham = new System.Windows.Forms.DataGridView();
+            this.masanpham = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tensp = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.solg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dg = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.nsx = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.hsd = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.gc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabPage3 = new System.Windows.Forms.TabPage();
             this.btnSPKho = new System.Windows.Forms.Button();
             this.btnXuat = new System.Windows.Forms.Button();
@@ -97,20 +111,6 @@
             this.txtPwd = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.ma = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ten = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.sl = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.don = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ngaysx = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.han = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.ghichu = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.masanpham = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tensp = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.solg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dg = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.nsx = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.hsd = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.gc = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.groupBox1.SuspendLayout();
@@ -180,9 +180,9 @@
             this.groupBox1.Controls.Add(this.btnUpdateQty);
             this.groupBox1.Controls.Add(this.btnDel);
             this.groupBox1.Location = new System.Drawing.Point(1079, 170);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(228, 538);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
@@ -248,12 +248,17 @@
             this.txtId.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.txtId.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.txtId.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtId.Enabled = false;
             this.txtId.Location = new System.Drawing.Point(377, 52);
             this.txtId.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txtId.Multiline = true;
             this.txtId.Name = "txtId";
             this.txtId.ReadOnly = true;
-            this.txtId.Size = new System.Drawing.Size(100, 22);
+            this.txtId.Size = new System.Drawing.Size(10, 10);
             this.txtId.TabIndex = 2;
+            this.txtId.TabStop = false;
             // 
             // dtpHsd
             // 
@@ -446,6 +451,62 @@
             this.dgvProduct.Size = new System.Drawing.Size(1064, 542);
             this.dgvProduct.TabIndex = 0;
             // 
+            // ma
+            // 
+            this.ma.DataPropertyName = "masanpham";
+            this.ma.HeaderText = "Mã sản phẩm";
+            this.ma.MinimumWidth = 6;
+            this.ma.Name = "ma";
+            this.ma.ReadOnly = true;
+            // 
+            // ten
+            // 
+            this.ten.DataPropertyName = "tensanpham";
+            this.ten.HeaderText = "Tên sản phẩm";
+            this.ten.MinimumWidth = 6;
+            this.ten.Name = "ten";
+            this.ten.ReadOnly = true;
+            // 
+            // sl
+            // 
+            this.sl.DataPropertyName = "soluong";
+            this.sl.HeaderText = "Số lượng";
+            this.sl.MinimumWidth = 6;
+            this.sl.Name = "sl";
+            this.sl.ReadOnly = true;
+            // 
+            // don
+            // 
+            this.don.DataPropertyName = "dongia";
+            this.don.HeaderText = "Đơn giá";
+            this.don.MinimumWidth = 6;
+            this.don.Name = "don";
+            this.don.ReadOnly = true;
+            // 
+            // ngaysx
+            // 
+            this.ngaysx.DataPropertyName = "ngaysanxuat";
+            this.ngaysx.HeaderText = "Ngày sản xuất";
+            this.ngaysx.MinimumWidth = 6;
+            this.ngaysx.Name = "ngaysx";
+            this.ngaysx.ReadOnly = true;
+            // 
+            // han
+            // 
+            this.han.DataPropertyName = "hansudung";
+            this.han.HeaderText = "Hạn sử dụng";
+            this.han.MinimumWidth = 6;
+            this.han.Name = "han";
+            this.han.ReadOnly = true;
+            // 
+            // ghichu
+            // 
+            this.ghichu.DataPropertyName = "ghichu";
+            this.ghichu.HeaderText = "Ghi chú";
+            this.ghichu.MinimumWidth = 6;
+            this.ghichu.Name = "ghichu";
+            this.ghichu.ReadOnly = true;
+            // 
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.groupBox2);
@@ -474,9 +535,9 @@
             this.groupBox2.Controls.Add(this.btnCancel);
             this.groupBox2.Controls.Add(this.btnSave);
             this.groupBox2.Location = new System.Drawing.Point(489, 11);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(265, 74);
             this.groupBox2.TabIndex = 13;
             this.groupBox2.TabStop = false;
@@ -679,6 +740,62 @@
             this.dgvSanpham.Size = new System.Drawing.Size(765, 618);
             this.dgvSanpham.TabIndex = 7;
             // 
+            // masanpham
+            // 
+            this.masanpham.DataPropertyName = "masanpham";
+            this.masanpham.HeaderText = "Mã sản phẩm";
+            this.masanpham.MinimumWidth = 6;
+            this.masanpham.Name = "masanpham";
+            this.masanpham.ReadOnly = true;
+            // 
+            // tensp
+            // 
+            this.tensp.DataPropertyName = "tensanpham";
+            this.tensp.HeaderText = "Tên sản phẩm";
+            this.tensp.MinimumWidth = 6;
+            this.tensp.Name = "tensp";
+            this.tensp.ReadOnly = true;
+            // 
+            // solg
+            // 
+            this.solg.DataPropertyName = "soluong";
+            this.solg.HeaderText = "Số lượng";
+            this.solg.MinimumWidth = 6;
+            this.solg.Name = "solg";
+            this.solg.ReadOnly = true;
+            // 
+            // dg
+            // 
+            this.dg.DataPropertyName = "dongia";
+            this.dg.HeaderText = "Đơn giá";
+            this.dg.MinimumWidth = 6;
+            this.dg.Name = "dg";
+            this.dg.ReadOnly = true;
+            // 
+            // nsx
+            // 
+            this.nsx.DataPropertyName = "ngaysanxuat";
+            this.nsx.HeaderText = "Ngày sản xuất";
+            this.nsx.MinimumWidth = 6;
+            this.nsx.Name = "nsx";
+            this.nsx.ReadOnly = true;
+            // 
+            // hsd
+            // 
+            this.hsd.DataPropertyName = "hansudung";
+            this.hsd.HeaderText = "Hạn sử dụng";
+            this.hsd.MinimumWidth = 6;
+            this.hsd.Name = "hsd";
+            this.hsd.ReadOnly = true;
+            // 
+            // gc
+            // 
+            this.gc.DataPropertyName = "ghichu";
+            this.gc.HeaderText = "Ghi chú";
+            this.gc.MinimumWidth = 6;
+            this.gc.Name = "gc";
+            this.gc.ReadOnly = true;
+            // 
             // tabPage3
             // 
             this.tabPage3.Controls.Add(this.btnSPKho);
@@ -696,7 +813,7 @@
             // btnSPKho
             // 
             this.btnSPKho.Location = new System.Drawing.Point(11, 4);
-            this.btnSPKho.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSPKho.Margin = new System.Windows.Forms.Padding(4);
             this.btnSPKho.Name = "btnSPKho";
             this.btnSPKho.Size = new System.Drawing.Size(149, 28);
             this.btnSPKho.TabIndex = 3;
@@ -707,7 +824,7 @@
             // btnXuat
             // 
             this.btnXuat.Location = new System.Drawing.Point(324, 4);
-            this.btnXuat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnXuat.Margin = new System.Windows.Forms.Padding(4);
             this.btnXuat.Name = "btnXuat";
             this.btnXuat.Size = new System.Drawing.Size(149, 28);
             this.btnXuat.TabIndex = 2;
@@ -718,7 +835,7 @@
             // btnNhap
             // 
             this.btnNhap.Location = new System.Drawing.Point(168, 4);
-            this.btnNhap.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnNhap.Name = "btnNhap";
             this.btnNhap.Size = new System.Drawing.Size(148, 28);
             this.btnNhap.TabIndex = 1;
@@ -732,7 +849,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.pnlThongKe.Location = new System.Drawing.Point(0, 39);
-            this.pnlThongKe.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlThongKe.Margin = new System.Windows.Forms.Padding(4);
             this.pnlThongKe.Name = "pnlThongKe";
             this.pnlThongKe.Size = new System.Drawing.Size(1317, 678);
             this.pnlThongKe.TabIndex = 0;
@@ -770,9 +887,9 @@
             this.groupBox4.Controls.Add(this.txtDiachi);
             this.groupBox4.Controls.Add(this.label17);
             this.groupBox4.Location = new System.Drawing.Point(11, 161);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox4.Size = new System.Drawing.Size(1303, 553);
             this.groupBox4.TabIndex = 5;
             this.groupBox4.TabStop = false;
@@ -924,9 +1041,9 @@
             this.groupBox3.Controls.Add(this.label11);
             this.groupBox3.Controls.Add(this.label12);
             this.groupBox3.Location = new System.Drawing.Point(4, 4);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox3.Size = new System.Drawing.Size(1309, 150);
             this.groupBox3.TabIndex = 4;
             this.groupBox3.TabStop = false;
@@ -976,118 +1093,6 @@
             this.label12.Size = new System.Drawing.Size(66, 17);
             this.label12.TabIndex = 0;
             this.label12.Text = "Mật khẩu";
-            // 
-            // ma
-            // 
-            this.ma.DataPropertyName = "masanpham";
-            this.ma.HeaderText = "Mã sản phẩm";
-            this.ma.MinimumWidth = 6;
-            this.ma.Name = "ma";
-            this.ma.ReadOnly = true;
-            // 
-            // ten
-            // 
-            this.ten.DataPropertyName = "tensanpham";
-            this.ten.HeaderText = "Tên sản phẩm";
-            this.ten.MinimumWidth = 6;
-            this.ten.Name = "ten";
-            this.ten.ReadOnly = true;
-            // 
-            // sl
-            // 
-            this.sl.DataPropertyName = "soluong";
-            this.sl.HeaderText = "Số lượng";
-            this.sl.MinimumWidth = 6;
-            this.sl.Name = "sl";
-            this.sl.ReadOnly = true;
-            // 
-            // don
-            // 
-            this.don.DataPropertyName = "dongia";
-            this.don.HeaderText = "Đơn giá";
-            this.don.MinimumWidth = 6;
-            this.don.Name = "don";
-            this.don.ReadOnly = true;
-            // 
-            // ngaysx
-            // 
-            this.ngaysx.DataPropertyName = "ngaysanxuat";
-            this.ngaysx.HeaderText = "Ngày sản xuất";
-            this.ngaysx.MinimumWidth = 6;
-            this.ngaysx.Name = "ngaysx";
-            this.ngaysx.ReadOnly = true;
-            // 
-            // han
-            // 
-            this.han.DataPropertyName = "hansudung";
-            this.han.HeaderText = "Hạn sử dụng";
-            this.han.MinimumWidth = 6;
-            this.han.Name = "han";
-            this.han.ReadOnly = true;
-            // 
-            // ghichu
-            // 
-            this.ghichu.DataPropertyName = "ghichu";
-            this.ghichu.HeaderText = "Ghi chú";
-            this.ghichu.MinimumWidth = 6;
-            this.ghichu.Name = "ghichu";
-            this.ghichu.ReadOnly = true;
-            // 
-            // masanpham
-            // 
-            this.masanpham.DataPropertyName = "masanpham";
-            this.masanpham.HeaderText = "Mã sản phẩm";
-            this.masanpham.MinimumWidth = 6;
-            this.masanpham.Name = "masanpham";
-            this.masanpham.ReadOnly = true;
-            // 
-            // tensp
-            // 
-            this.tensp.DataPropertyName = "tensanpham";
-            this.tensp.HeaderText = "Tên sản phẩm";
-            this.tensp.MinimumWidth = 6;
-            this.tensp.Name = "tensp";
-            this.tensp.ReadOnly = true;
-            // 
-            // solg
-            // 
-            this.solg.DataPropertyName = "soluong";
-            this.solg.HeaderText = "Số lượng";
-            this.solg.MinimumWidth = 6;
-            this.solg.Name = "solg";
-            this.solg.ReadOnly = true;
-            // 
-            // dg
-            // 
-            this.dg.DataPropertyName = "dongia";
-            this.dg.HeaderText = "Đơn giá";
-            this.dg.MinimumWidth = 6;
-            this.dg.Name = "dg";
-            this.dg.ReadOnly = true;
-            // 
-            // nsx
-            // 
-            this.nsx.DataPropertyName = "ngaysanxuat";
-            this.nsx.HeaderText = "Ngày sản xuất";
-            this.nsx.MinimumWidth = 6;
-            this.nsx.Name = "nsx";
-            this.nsx.ReadOnly = true;
-            // 
-            // hsd
-            // 
-            this.hsd.DataPropertyName = "hansudung";
-            this.hsd.HeaderText = "Hạn sử dụng";
-            this.hsd.MinimumWidth = 6;
-            this.hsd.Name = "hsd";
-            this.hsd.ReadOnly = true;
-            // 
-            // gc
-            // 
-            this.gc.DataPropertyName = "ghichu";
-            this.gc.HeaderText = "Ghi chú";
-            this.gc.MinimumWidth = 6;
-            this.gc.Name = "gc";
-            this.gc.ReadOnly = true;
             // 
             // HomeStorage
             // 
