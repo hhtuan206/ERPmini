@@ -23,7 +23,7 @@ namespace ERPmini.Sale
             load_form();
         }
         #region VARIABLE
-        public static string connectionString = "Data Source=DESKTOP-F58T0SR\\SQLEXPRESS;Initial Catalog=db_qlsxduoc;User ID=sa;Integrated Security=True";
+        public static string connectionString = "Data Source=.;Initial Catalog=db_qlsxduoc;User ID=sa;Integrated Security=True";
         System.Data.DataSet ds;
         SqlConnection conn;
         #endregion

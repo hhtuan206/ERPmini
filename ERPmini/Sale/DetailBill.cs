@@ -24,7 +24,7 @@ namespace ERPmini.Sale
             this.Saler = Saler;
         }
 
-        private void loadDetailBill(string id)
+        private void loadDetailBill(string id = "1")
         {
             try {
                 string[] listID = id.Split(' ');
